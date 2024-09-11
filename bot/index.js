@@ -1,3 +1,6 @@
+const tg = window.Telegram.WebApp;  
+   tg.ready(); 
+   
 const { Telegraf } = require('telegraf');
 const { message } = require('telegraf/filters');
 
